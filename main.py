@@ -50,7 +50,15 @@ def print_book(book_id, book):
 def add_book(books):
     print("\n--- Add a Book ---")
     title = input("Title: ").strip()
+    if not title:
+        print("The title cannot be empty. Book not added.")
+        return
+
     author = input("Author: ").strip()
+    if not author:
+        print("The author cannot be empty. Book not added.")
+        return
+
     year = input("Year published: ").strip()
 
     if not year.isdigit():

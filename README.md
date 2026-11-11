@@ -1,4 +1,4 @@
-# Library Manager - Terminal App
+# Library Manager - Terminal App (Python Project)
 
 A simple terminal program, written in Python, that manages a small library.
 
@@ -11,6 +11,10 @@ A simple terminal program, written in Python, that manages a small library.
 - Show statistics (total, available, borrowed, oldest book)
 
 Books are saved in a file called `library.json`, so your data is still there the next time you run the program.
+
+## Input rules
+- The title and author cannot be empty.
+- The year must be a number.
 
 ## How to run it
 1. Install Python 3.
