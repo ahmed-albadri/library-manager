@@ -1,4 +1,4 @@
-# Library Manager
+# Library Manager - Python Project
 
 A simple terminal program, written in Python, that manages a small library.
 
