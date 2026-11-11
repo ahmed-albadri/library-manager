@@ -55,6 +55,10 @@ def add_book(books):
         return
 
     author = input("Author: ").strip()
+    if not author:
+        print("The author cannot be empty. Book not added.")
+        return
+
     year = input("Year published: ").strip()
 
     if not year.isdigit():
